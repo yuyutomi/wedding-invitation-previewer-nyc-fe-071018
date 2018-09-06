@@ -67,7 +67,7 @@ li {
   background-size: cover;
   transition: background-image 1s ease;
 }
-.artDeco {
+.invite.artDeco {
   font-family: 'Dancing Script', cursive;
   background: #005AA7;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
