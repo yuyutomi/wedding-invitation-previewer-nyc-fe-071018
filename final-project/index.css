@@ -49,7 +49,7 @@ li {
   transition: all 3s ease;
   background: none;
 }
-.initials {
+#initials {
   margin-top: 160px;
 }
 /* Formal styling */
