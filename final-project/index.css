@@ -45,6 +45,11 @@ li {
   text-align: center;
   border: solid 1px lightgray; 
   transition-duration: 2s;
+  -webkit-transition: 2s ease-out;
+  -moz-transition: 2s ease-out;
+  -o-transition: 2s ease-out;
+  transition: 2s ease-out;
+}
 }
 #top {
   margin-top: 160px;
