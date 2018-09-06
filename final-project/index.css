@@ -40,7 +40,7 @@ li {
     border-radius: 30px;
 }
 
-.invitation {
+#invitation {
   padding: 40px;
   text-align: center;
   border: solid 1px lightgray; 
