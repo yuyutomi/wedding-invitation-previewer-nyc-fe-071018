@@ -61,10 +61,11 @@ li {
 }
 
 /* Spring styling */
-.spring {
+.invite.spring {
   font-family: 'Nunito', sans-serif;
   background-image: url("images/flowers.jpg"); 
   background-size: cover;
+  transition: background 1s ease;
 }
 .artDeco {
   font-family: 'Dancing Script', cursive;
