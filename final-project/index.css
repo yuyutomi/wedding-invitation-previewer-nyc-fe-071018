@@ -46,7 +46,7 @@ li {
   border: solid 1px lightgray; 
 }
 .invite { 
-  background: background 1s ease;
+  transition: background 1s ease;
   background: none;
 }
 #top {
