@@ -33,12 +33,12 @@ function formal() {
   invitation.classList.remove("artDeco")
 }
 function spring() {
-  document.getElementById("invitation").classList.add("spring")
+  document.getElementsByClassName("invitation").classList.add("spring")
   invitation.classList.remove("formal")
   invitation.classList.remove("artDeco") 
 }
 function artDeco() {
-  document.getElementById("invitation").classList.add("artDeco")
+  document.getElementsByClassName("invitation").classList.add("artDeco")
   invitation.classList.remove("formal")
   invitation.classList.remove("spring") 
 }
