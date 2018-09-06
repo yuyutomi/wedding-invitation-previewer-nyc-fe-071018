@@ -47,6 +47,7 @@ li {
 }
 .invite { 
   background: transform 2s ease, opacity 2s ease;
+  background: none;
 }
 #top {
   margin-top: 160px;
