@@ -8,14 +8,17 @@ let nameTwoInvite = document.getElementById("name-two-invite")
 let lastNameInvite = document.getElementById("last-name-invite")
 let dateInvite = document.getElementById("date-invite")
 let locationInvite = document.getElementById("location-invite")
-let initialOne = document.getElementById("location-invite")
+let initialOne = document.getElementById("initial-one")
+let initialTwo = document.getElementById("initial-two")
 
 // Print typed in content
 nameOne.addEventListener("keyup", event => {
   nameOneInvite.innerHTML = nameOne.value
+  initialOne.innerHTML = nameOne.value
 })
 nameTwo.addEventListener("keyup", (event) => {
   nameTwoInvite.innerHTML = nameTwo.value
+  initialTwo.innerHTML = nameOne.value
 })
 lastName.addEventListener("keyup", (event) => {
   lastNameInvite.innerHTML = lastName.value
