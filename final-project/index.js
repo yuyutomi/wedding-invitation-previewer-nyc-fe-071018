@@ -42,3 +42,9 @@ function artDeco() {
   invitation.classList.remove("formal")
   invitation.classList.remove("spring") 
 }
+
+// Add initials
+
+function initials() {
+  
+}
