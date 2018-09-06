@@ -46,10 +46,7 @@ li {
   border: solid 1px lightgray; 
 }
 .invite { 
-  -webkit-transition: background 2s ease-out;
-  -moz-transition: background 2s ease-out;
-  -o-transition: background 2s ease-out;
-  transition: background 2s ease-out;
+  transition: transform 400ms ease, opacity 400ms ease;
 }
 #top {
   margin-top: 160px;
