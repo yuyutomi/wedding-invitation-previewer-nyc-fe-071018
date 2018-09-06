@@ -45,8 +45,7 @@ li {
   text-align: center;
   border: solid 1px lightgray; 
 }
-.invite {
-  transition-duration: 2s;
+.invite { 
   -webkit-transition: background 2s ease-out;
   -moz-transition: background 2s ease-out;
   -o-transition: background 2s ease-out;
