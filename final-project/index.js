@@ -8,6 +8,7 @@ let nameTwoInvite = document.getElementById("name-two-invite")
 let lastNameInvite = document.getElementById("last-name-invite")
 let dateInvite = document.getElementById("date-invite")
 let locationInvite = document.getElementById("location-invite")
+let initialOne = document.getElementById("location-invite")
 
 // Print typed in content
 nameOne.addEventListener("keyup", event => {
