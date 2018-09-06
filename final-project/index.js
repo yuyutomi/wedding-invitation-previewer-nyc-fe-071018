@@ -14,7 +14,7 @@ let initialTwo = document.getElementById("initial-two")
 // Print typed in content
 nameOne.addEventListener("keyup", event => {
   nameOneInvite.innerHTML = nameOne.value
-  initialOne.innerHTML = nameOne.value.slice(0,1)
+  initialOne.innerHTML = nameOne.value.slice(0,1).
 })
 nameTwo.addEventListener("keyup", (event) => {
   nameTwoInvite.innerHTML = nameTwo.value
