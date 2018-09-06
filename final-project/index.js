@@ -18,7 +18,7 @@ nameOne.addEventListener("keyup", event => {
 })
 nameTwo.addEventListener("keyup", (event) => {
   nameTwoInvite.innerHTML = nameTwo.value
-  initialTwo.innerHTML = nameOne.value
+  initialTwo.innerHTML = nameTwo.value
 })
 lastName.addEventListener("keyup", (event) => {
   lastNameInvite.innerHTML = lastName.value
