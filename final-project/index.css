@@ -44,6 +44,7 @@ li {
   padding: 40px;
   text-align: center;
   border: solid 1px lightgray; 
+  transition-duration: 2s;
 }
 #top {
   margin-top: 160px;
