@@ -28,7 +28,7 @@ venue.addEventListener("keyup", (event) => {
 
 // Update colors based on options 
 function formal() {
-  document.getElementById("invitation").classList.add("formal") 
+  document.getElementsByClassName("invitation").classList.add("formal") 
 	invitation.classList.remove("spring")
   invitation.classList.remove("artDeco")
 }
