@@ -1,0 +1,74 @@
+body {
+  padding: 5%;
+  background: #fcf8f8;
+  font-family: 'Playfair Display', serif;  
+  color: navy;
+}
+.column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+form {
+  display: block;
+  padding: 30px;
+  border: 1px solid lightgray;
+  width: 80%; 
+  margin-bottom: 30px;
+}
+label {
+  margin-top: 10px;
+}
+input {
+  padding: 8px;
+}
+h1 {
+  text-align: center;
+  padding-bottom: 30px;
+  border-bottom: solid 1px lightgray;
+}
+label {
+    display: block;
+}
+input {
+    width: 60%;
+}
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px 20px;
+    border: solid 1px navy;
+    border-radius: 30px;
+}
+
+#invitation {
+  padding: 40px;
+  text-align: center;
+  border: solid 1px lightgray; 
+}
+#top {
+  margin-top: 160px;
+}
+/* Formal styling */
+.formal {
+  background: #C6FFDD;  /* fallback for old browsers  */
+  background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+}
+
+/* Spring styling */
+.spring {
+  font-family: 'Nunito', sans-serif;
+  background-image: url("images/flowers.jpg"); 
+  background-size: cover;
+}
+.artDeco {
+  font-family: 'Dancing Script', cursive;
+  background: #005AA7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+}
+@media screen and (max-width: 780px) {
+  .column {
+    grid-template-columns: 1fr;
+  }
+}
