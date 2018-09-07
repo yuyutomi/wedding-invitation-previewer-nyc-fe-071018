@@ -45,8 +45,8 @@ li {
   text-align: center;
   border: solid 1px lightgray; 
 }
-.invite { 
-  animation: all 3s ease;
+.container { 
+  transition: all 3s ease;
   background: none;
 }
 #initials {
