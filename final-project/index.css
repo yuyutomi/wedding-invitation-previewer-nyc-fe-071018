@@ -46,7 +46,7 @@ li {
   border: solid 1px lightgray; 
 }
 .invite { 
-  transition: all 3s ease;
+  animation: all 3s ease;
   background: none;
 }
 #initials {
