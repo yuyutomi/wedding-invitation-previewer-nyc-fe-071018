@@ -32,19 +32,13 @@ venue.addEventListener("keyup", (event) => {
 
 // Update colors based on options 
 function formal() {
-  document.getElementById("invitation").classList.add("formal") 
-	invitation.classList.remove("spring")
-  invitation.classList.remove("artDeco")
+  document.getElementById("invitation").className = "formal"
 }
 function spring() {
-  document.getElementById("invitation").classList.add("spring")
-  invitation.classList.remove("formal")
-  invitation.classList.remove("artDeco") 
+  document.getElementById("invitation").className = "spring"
 }
 function artDeco() {
-  document.getElementById("invitation").classList.add("artDeco")
-  invitation.classList.remove("formal")
-  invitation.classList.remove("spring") 
+ document.getElementById("invitation").className = "artDeco" 
 }
 
 // Add initials
