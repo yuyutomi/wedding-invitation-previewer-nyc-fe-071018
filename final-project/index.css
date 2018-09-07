@@ -44,6 +44,7 @@ li {
   padding: 40px;
   text-align: center;
   border: solid 1px lightgray; 
+  transition: all 1s ease;
 }
 #initials {
   margin-top: 160px;
