@@ -45,7 +45,7 @@ li {
   text-align: center;
   border: solid 1px lightgray; 
 }
-.container { 
+.invite { 
   transition: all 3s ease;
   background: none;
 }
