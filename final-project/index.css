@@ -60,7 +60,7 @@ li {
 /* Spring styling */
 .spring {
   font-family: 'Nunito', sans-serif;
-  background-image: url("images/flowers.jpg"); 
+  background: url("images/flowers.jpg"); 
   background-size: cover;
   transition: all 1s ease;
 }
